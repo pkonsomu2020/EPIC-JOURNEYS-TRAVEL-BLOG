@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts | Epic Journeys Travel Blog</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="logo"><img src="./images/TRAVEL_BLOG_LOGO-removebg-preview.png" alt="Logo" style="height: 40px;"></a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contacts</a>
+            <a href="login.html" class="login">Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Contact Us</h2>
+            <span class="home-subtitle">Feel free to reach to us</span>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION MAIN -->
+    <section class="contact container">
+        <div class="contact-info">
+            <h2>Drop a message</h2>
+            <p class="contact-p">Feel free to get in touch with us. We are available 24/7 to assist you.</p>
+            
+            <ul>
+                <li><span><i class="bx bxs-map"></i></span>Karatina Town, Nyeri</li>
+                <li><span><i class="bx bx-envelope"></i></span><a href="mailto:info@epicjourneysblog.com">info@epicjourneysblog.com</a></li>
+                <!-- Add more contact details as needed -->
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="subject" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to Epic Journeys Travel Blog! 
+                    We are a team of passionate travelers 
+                    dedicated to exploring the far corners 
+                    of the globe and sharing our experiences with you.
+                </p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blogs.html">Blog posts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>Karatina Town <br>Nyeri</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:info@epicjourneysblog.com">info@epicjourneysblog.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+    <script>
+        function redirectToBestUI() {
+            // Redirect to the bestui.html page
+            window.location.href = 'components/bestui.html';
+        }
+    </script>
+</body>
+</html>
